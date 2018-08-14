@@ -14,10 +14,11 @@
 [美丽的项链](https://www.nowcoder.com/question/next?pid=9439037&qid=140939&tid=14952974)
 ---> BeautifulNecklace
 
+[求数列的和](https://www.nowcoder.com/practice/02f23a209c0c4d2484e29b560c174de1?tpId=85&&tqId=29893&rp=1&ru=/activity/oj&qru=/ta/2017test/question-ranking)
+---> computeSum
 
-
-
-[]()
+[水仙花数](https://www.nowcoder.com/practice/dc943274e8254a9eb074298fb2084703?tpId=85&tqId=29894&rp=1&ru=%2Factivity%2Foj&qru=%2Fta%2F2017test%2Fquestion-ranking)
+---> narcissisticNumber
 
 []()
 
