@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * Created by Sniper on 2018/8/14.
  */
-public class computeSum {
+public class ComputeSum {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()){
