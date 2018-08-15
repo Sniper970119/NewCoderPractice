@@ -5,7 +5,7 @@ import java.util.Scanner;
  * Created by Sniper on 2018/8/14.
  */
 public class Chorus {
-    // 使用动态规划
+    // 动态规划的优化算法
     public static void main(String[] args) {
 //        test();
         Scanner scanner = new Scanner(System.in);
@@ -16,10 +16,12 @@ public class Chorus {
         Long[] max = new Long[n];
         Long[] premin = new Long[n];
         Long[] min = new Long[n];
+        //获取学生能力值
         for (int i = 0; i < n; i++) {
             arr[i] = scanner.nextLong();
         }
         scanner.nextLine();
+        // 分别获取人数和间隔
         int k = scanner.nextInt();
         int d = scanner.nextInt();
         // 初始化第一排
@@ -29,26 +31,33 @@ public class Chorus {
             max[i] = arr[i];
             min[i] = arr[i];
         }
+        //遍历，第一层是选中人数（因为初始化过，所以-1）
         for (int i = 0; i < k - 1; i++) {
+            // 第二层是总人数
             for (int j = 0; j < n; j++) {
                 Long minTemp = Long.MAX_VALUE;
                 Long maxTemp = Long.MIN_VALUE;
+                // 向前查找间隔个人，同时保证不小于0，防止越界。
                 for (int l = Math.max(0, j - d); l < j; l++) {
+                    // 判断更新最大值数组
                     if (maxTemp < Math.max(premax[l] * arr[j], premin[l] * arr[j])){
                         max[j] = Math.max(premax[l] * arr[j], premin[l] * arr[j]);
                         maxTemp = max[j];
                     }
+                    // 判断更新最小值数组
                     if (minTemp > Math.min(premax[l] * arr[j], premin[l] * arr[j])){
                         min[j] = Math.min(premax[l] * arr[j], premin[l] * arr[j]);
                         minTemp = min[j];
                     }
                 }
             }
+            // 更新当前行为前一行，这层优化降低了算法的空间复杂度，使空间复杂度从O(n^2)降为O(2n)
             for (int j = 0; j < n; j++) {
                 premax[j] = max[j];
                 premin[j] = min[j];
             }
         }
+        // 遍历查找最大值
         Long maxValue = 0l;
         for (int i = 0; i < n; i++) {
             if (maxValue < premax[i]){
@@ -58,7 +67,7 @@ public class Chorus {
         System.out.println(maxValue);
     }
 
-    // 备忘录算法
+    // 动态规划算法
     private static void test() {
         //获取学生个数
         Scanner scanner = new Scanner(System.in);
@@ -107,78 +116,9 @@ public class Chorus {
         //确定了K值，要得到最大值，则遍历第K列，即搜索f[curN~n][K]  （curN >= k）
         long maxResult = Long.MIN_VALUE;
         for(int curN = k; curN <= n; curN++) {
-//            System.out.println(f[curN][k]);
             if(f[curN][k] > maxResult)
                 maxResult = f[curN][k];
-        }
-        for (int i = 0; i < f.length; i++) {
-            for (int j = 0; j < f[i].length; j++) {
-                System.out.print(f[i][j]+" ");
-//                System.out.print ("   ");
-//                System.out.print(g[i][j]+" ");
-            }
-            System.out.println(" ");
-        }
-
-        for (int i = 0; i < f.length; i++) {
-            for (int j = 0; j < f[i].length; j++) {
-//                System.out.print(f[i][j]+" ");
-//                System.out.print ("   ");
-                System.out.print(g[i][j]+" ");
-            }
-            System.out.println(" ");
         }
         System.out.println(maxResult);
     }
 }
-
-
-// [7, 7, 217, 1519, 660, 1715, 2156, 2068, 1081, 735, 517, 490, 987, 490, 611, 7, 940, 1692, 1078, 611, 1833, 1833, 1457, 611, 1269, 2021, 282, 1960, 245, 2209, 1715, 376, 1176, 1457, 1128, 47]
-//47
-
-
-/*
-36
-7 -15 31 49 -44 35 44 -47 -23 15 -11 10 -21 10 -13 0 -20 -36 22 -13 -39 -39 -31 -13 -27 -43 -6 40 5 -47 35 -8 24 -31 -24 -1
-3 31
-
--3255
-10633
-32340
-53165
-75460
-101332
-52969
-32340
-25333
-21560
-48363
-21560
-29939
-0
-46060
-82908
-47432
-29939
-89817
-89817
-71393
-29939
-62181
-99029
-13818
-86240
-10780
-108241
-77315
-18424
-53016
-71393
-55272
-2303
-
-
- 3
- 7 4 7
- 2 50
-  */
