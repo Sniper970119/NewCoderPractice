@@ -6,7 +6,7 @@
 ---> PasswordCracking
 
 [寻宝](https://www.nowcoder.com/question/next?pid=9439037&qid=23650&tid=14952974)
----> FindTreasure
+---> FindTreasure (最小生成树)
 
 [打车](https://www.nowcoder.com/question/next?pid=9439037&qid=23650&tid=14952974)
 ---> PayTexi
