@@ -1,3 +1,5 @@
+import com.sun.org.apache.xpath.internal.SourceTree;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -14,45 +16,31 @@ public class PayTexi {
             money[i] = scanner.nextInt();
         }
         Arrays.sort(money);
-        for (int i = 0; i < n; i++) {
-            System.out.print(money[i] + " ");
-        }
-        System.out.println();
+//        for (int i = 0; i < n; i++) {
+//            System.out.print(money[i] + " ");
+//        }
+//        System.out.println();
         int sum = 0;
         int result = 0;
-        int from = n - 1;
-        int to = n - 1;
-        for (int i = n - 1; i >= 0; i--) {
-            if (sum < m) {
-                sum += money[i];
-                result++;
-                from--;
-            }
-        }
+        int from = 0;
+        int to = 0;
 
-        while (true) {
-            if (sum - money[to] + money[from - 1] >= m) {
-                from--;
-                to--;
-            } else {
+        // 正序遍历
+        for (int i = 0; i < n; i++) {
+            sum += money[i];
+            result++;
+//            System.out.println("sum:"+sum);
+            if (sum>=m){
                 break;
             }
         }
-
-        for (int i = from; i < to; i++) {
-            System.out.print(money[i] + " ");
-        }
-        System.out.println();
-
-        for (int i = to; i >= from; i--) {
-            for (int j = to - 1; j >= 0; j--) {
-                for (int k = 0; k < j; k++) {
-                    if (money[k] + money[j] >= money[i]) {
-                        result++;
-                        money[k] = 0;
-                        money[j] = 0;
-                    }
-                }
+        int dis = sum -m;
+//        System.out.println(result);
+        // 倒序遍历，检查能否去掉小额面值
+        for (int i = result -1; i >= 0; i--) {
+            if (dis>=money[i]){
+                dis -= money[i];
+                result--;
             }
         }
         System.out.println(result);

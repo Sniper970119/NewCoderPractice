@@ -22,6 +22,8 @@
 
 [合唱团](https://www.nowcoder.com/practice/661c49118ca241909add3a11c96408c8?tpId=85&tqId=29830&tPage=1&rp=1&ru=/ta/2017test&qru=/ta/2017test/question-ranking)
 ---> Chorus  （动态规划和动态规划的优化 [降低空间复杂度] 双实现）
-[]()
+
+[下厨房](https://www.nowcoder.com/practice/ca5c9ba9ebac4fd5ae9ba46114b0f476?tpId=85&tqId=29832&tPage=1&rp=1&ru=/ta/2017test&qru=/ta/2017test/question-ranking)
+--> itchen 
 []()
 
