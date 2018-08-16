@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ffa95f2-17c1-4c93-b220-99f546dc365f" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DoNotNeedTwo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Kitchen.java" afterPath="$PROJECT_DIR$/src/Kitchen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DoNotNeedTwo.java" afterPath="$PROJECT_DIR$/src/DoNotNeedTwo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +42,8 @@
       <file leaf-file-name="DoNotNeedTwo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DoNotNeedTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="368">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -162,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/PayTexi.java" />
         <option value="$PROJECT_DIR$/src/Kitchen.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/DoNotNeedTwo.java" />
       </list>
     </option>
   </component>
@@ -248,22 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="应用程序.Kitchen">
-    <configuration default="false" name="NarcissisticNumber" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="NarcissisticNumber" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="NowCoderPractice" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="应用程序.DoNotNeedTwo">
     <configuration default="false" name="Chorus" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Chorus" />
@@ -312,6 +296,21 @@
     <configuration default="false" name="Kitchen" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Kitchen" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="NowCoderPractice" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DoNotNeedTwo" type="Application" factoryName="应用程序" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="DoNotNeedTwo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -712,19 +711,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="应用程序.NarcissisticNumber" />
-      <item index="1" class="java.lang.String" itemvalue="应用程序.Chorus" />
-      <item index="2" class="java.lang.String" itemvalue="应用程序.FindTreasure" />
-      <item index="3" class="java.lang.String" itemvalue="应用程序.PayTexi" />
-      <item index="4" class="java.lang.String" itemvalue="应用程序.Kitchen" />
+      <item index="0" class="java.lang.String" itemvalue="应用程序.Chorus" />
+      <item index="1" class="java.lang.String" itemvalue="应用程序.FindTreasure" />
+      <item index="2" class="java.lang.String" itemvalue="应用程序.PayTexi" />
+      <item index="3" class="java.lang.String" itemvalue="应用程序.Kitchen" />
+      <item index="4" class="java.lang.String" itemvalue="应用程序.DoNotNeedTwo" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="应用程序.Kitchen" />
-        <item index="1" class="java.lang.String" itemvalue="应用程序.PayTexi" />
-        <item index="2" class="java.lang.String" itemvalue="应用程序.FindTreasure" />
-        <item index="3" class="java.lang.String" itemvalue="应用程序.Chorus" />
-        <item index="4" class="java.lang.String" itemvalue="应用程序.NarcissisticNumber" />
+        <item index="0" class="java.lang.String" itemvalue="应用程序.DoNotNeedTwo" />
+        <item index="1" class="java.lang.String" itemvalue="应用程序.Kitchen" />
+        <item index="2" class="java.lang.String" itemvalue="应用程序.PayTexi" />
+        <item index="3" class="java.lang.String" itemvalue="应用程序.FindTreasure" />
+        <item index="4" class="java.lang.String" itemvalue="应用程序.Chorus" />
       </list>
     </recent_temporary>
   </component>
@@ -743,7 +742,7 @@
       <workItem from="1523252298444" duration="6197000" />
       <workItem from="1524138440199" duration="94000" />
       <workItem from="1534251136579" duration="32219000" />
-      <workItem from="1534422557560" duration="4490000" />
+      <workItem from="1534422557560" duration="6772000" />
     </task>
     <task id="LOCAL-00001" summary="updata">
       <created>1534251196263</created>
@@ -801,11 +800,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534427587573</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="updata">
+      <created>1534428755277</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534428755277</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51739000" />
+    <option name="totallyTimeSpent" value="54021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1182,8 +1188,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DoNotNeedTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="368">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding />
         </state>
       </provider>
