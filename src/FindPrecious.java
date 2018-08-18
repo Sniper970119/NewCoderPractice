@@ -10,8 +10,6 @@ public class FindPrecious {
         Scanner scanner = new Scanner(System.in);
         String t = scanner.nextLine();
         String s = scanner.nextLine();
-        int length = s.length();
-        int flag = 0;
         if (findSub(t,s)){
             System.out.println("Yes");
         }else
