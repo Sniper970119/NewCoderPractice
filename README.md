@@ -32,8 +32,7 @@
 [藏宝图](https://www.nowcoder.com/questionTerminal/74475ee28edb497c8aa4f8c370f08c30)
 ---> FindPrecious
 
-[数列还原](https://www.nowcoder.com/questionTerminal/b698e67a2f5b450a824527e82ed7495d)
----> SeriesRestore
+
 []()
 []()
 
