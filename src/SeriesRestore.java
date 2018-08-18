@@ -41,7 +41,7 @@ public class SeriesRestore {
 
     }
     private static boolean judgeCurrent(int[] data, int[] book){
-
+        return true;
     }
 }
 
