@@ -24,16 +24,16 @@
 ---> Chorus  （动态规划和动态规划的优化 [降低空间复杂度] 双实现）
 
 [下厨房](https://www.nowcoder.com/practice/ca5c9ba9ebac4fd5ae9ba46114b0f476?tpId=85&tqId=29832&tPage=1&rp=1&ru=/ta/2017test&qru=/ta/2017test/question-ranking)
---> itchen 
+---> itchen 
 
 [不要二](https://www.nowcoder.com/practice/1183548cd48446b38da501e58d5944eb?tpId=85&tqId=29840&tPage=1&rp=1&ru=/ta/2017test&qru=/ta/2017test/question-ranking)
---> DoNotNeedTwo
+---> DoNotNeedTwo
 
 [藏宝图](https://www.nowcoder.com/questionTerminal/74475ee28edb497c8aa4f8c370f08c30)
---> FindPrecious
+---> FindPrecious
 
 [数列还原](https://www.nowcoder.com/questionTerminal/b698e67a2f5b450a824527e82ed7495d)
---> SeriesRestore
+---> SeriesRestore
 []()
 []()
 
