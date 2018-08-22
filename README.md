@@ -50,8 +50,8 @@
 [买苹果](https://www.nowcoder.com/questionTerminal/61cfbb2e62104bc8aa3da5d44d38a6ef)
 --->
 
-[]()
---->
+[n个数里出现次数大于等于n/2的数 ](https://www.nowcoder.com/questionTerminal/eac8c671a0c345b38aa0c07aba40097b)
+--->FindRepetition
 
 
 []()
