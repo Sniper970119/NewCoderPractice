@@ -16,26 +16,18 @@ public class PayTexi {
             money[i] = scanner.nextInt();
         }
         Arrays.sort(money);
-//        for (int i = 0; i < n; i++) {
-//            System.out.print(money[i] + " ");
-//        }
-//        System.out.println();
         int sum = 0;
         int result = 0;
-        int from = 0;
-        int to = 0;
 
         // 正序遍历
         for (int i = 0; i < n; i++) {
             sum += money[i];
             result++;
-//            System.out.println("sum:"+sum);
             if (sum>=m){
                 break;
             }
         }
         int dis = sum -m;
-//        System.out.println(result);
         // 倒序遍历，检查能否去掉小额面值
         for (int i = result -1; i >= 0; i--) {
             if (dis>=money[i]){
