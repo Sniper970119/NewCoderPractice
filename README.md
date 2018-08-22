@@ -57,11 +57,11 @@
 [游戏任务标记](https://www.nowcoder.com/questionTerminal/2f45f0ef94724e06a4173c91ef60781c)
 --->GameFlag
 
-[]()
---->
+[素数对](https://www.nowcoder.com/questionTerminal/c96d6acc025541ffb79c579688f8d003)
+--->PairOfPrime
 
-[]()
---->
+[网格走法数目](https://www.nowcoder.com/questionTerminal/e27b9fc9c0ec4a17a5064fb6f5ab13e4)
+--->NetWalking
 
 []()
 --->
