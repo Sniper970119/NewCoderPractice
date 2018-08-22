@@ -35,10 +35,6 @@ public class SeriesRestore {
                 dataIsZeroLength++;
             }
         }
-//        for (int i = 0; i < length; i++) {
-//            System.out.print(newData[i]+" ");
-//        }
-
     }
     private static boolean judgeCurrent(int[] data, int[] book){
         return true;
