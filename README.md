@@ -41,8 +41,8 @@
 [小易喜欢的单词](https://www.nowcoder.com/questionTerminal/ca7b8af83e2f4ec1af2f23d6733223b5?pos=11&orderByHotValue=1)
 ---> TheWordsYiLike
 
-[]()
---->
+[统计回文](https://www.nowcoder.com/questionTerminal/9d1559511b3849deaa71b576fa7009dc)
+---> StatisticsPalindrome
 
 []()
 --->
