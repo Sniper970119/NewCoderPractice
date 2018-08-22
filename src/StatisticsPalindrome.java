@@ -14,6 +14,11 @@ public class StatisticsPalindrome {
         int result = 0;
         for (int i = -1; i < lengthA; i++) {
             String a =computeString(stringA, stringB,i);
+            // 防御编程，防止返回空对象
+            if (a == null){
+                System.out.println("Error");
+                System.exit(0);
+            }
             if (judgePalindrome(a)){
                 result++;
             }
