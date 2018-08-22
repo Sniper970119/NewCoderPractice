@@ -44,8 +44,8 @@
 [统计回文](https://www.nowcoder.com/questionTerminal/9d1559511b3849deaa71b576fa7009dc)
 ---> StatisticsPalindrome
 
-[]()
---->
+[数字翻转](https://www.nowcoder.com/questionTerminal/bc62febdd1034a73a62224affe8bddf2)
+---> OverturnTheNumber
 
 []()
 --->
