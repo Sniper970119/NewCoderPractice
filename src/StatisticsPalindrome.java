@@ -14,7 +14,6 @@ public class StatisticsPalindrome {
         int result = 0;
         for (int i = -1; i < lengthA; i++) {
             String a =computeString(stringA, stringB,i);
-//            System.out.println(a);
             if (judgePalindrome(a)){
                 result++;
             }
