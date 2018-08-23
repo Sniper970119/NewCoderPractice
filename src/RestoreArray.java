@@ -90,8 +90,6 @@ public class RestoreArray {
 //                System.out.println(arrayList);
                 computeString(list, arrayList, n + 1);
                 Collections.swap(arrayList,n,i);
-
-
             }
         }
     }
