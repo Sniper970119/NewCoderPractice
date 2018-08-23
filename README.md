@@ -65,8 +65,8 @@
 [身份证分组](https://www.nowcoder.com/questionTerminal/58766632a6cc45c0a1158fea2db91728)
 --->SortIDCard
 
-[]()
---->
+[数列还原](https://www.nowcoder.com/questionTerminal/b698e67a2f5b450a824527e82ed7495d)
+--->RestoreArray
 
 []()
 --->

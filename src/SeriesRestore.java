@@ -36,12 +36,6 @@ public class SeriesRestore {
             }
         }
     }
-    private static boolean judgeCurrent(int[] data, int[] book){
-        return true;
-    }
 }
 
-/*
-[数列还原](https://www.nowcoder.com/questionTerminal/b698e67a2f5b450a824527e82ed7495d)
----> SeriesRestore
-* */
+
