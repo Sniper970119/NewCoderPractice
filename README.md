@@ -2,7 +2,7 @@
 
 *免责声明：仅限于学习研究使用，请勿用于非法用途*
 
-[末日算法计算星期几]()
+[末日算法计算星期几](http://www.sniper97.cn/index.php/category/other/other/doomsday)
 ---> ComputeDayOfTheWeek
 
 [密码翻译](https://www.nowcoder.com/test/question/136de4a719954361a8e9e41c8c4ad855?pid=9439037&tid=14952974)
