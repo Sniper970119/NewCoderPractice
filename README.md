@@ -71,11 +71,11 @@
 [数列还原](https://www.nowcoder.com/questionTerminal/b698e67a2f5b450a824527e82ed7495d)
 --->RestoreArray
 
-[]()
---->
+[两种排序方法](https://www.nowcoder.com/questionTerminal/839f681bf36c486fbcc5fcb977ffe432)
+--->TwoKindOfSort
 
-[]()
---->
+[构造队列](https://www.nowcoder.com/questionTerminal/657d09e2b3704574814089ba8566d98d)
+--->MakeQueue
 
 []()
 --->
