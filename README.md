@@ -77,11 +77,11 @@
 [构造队列](https://www.nowcoder.com/questionTerminal/657d09e2b3704574814089ba8566d98d)
 --->MakeQueue
 
-[]()
---->
+空气质量
+--->AirQuality
 
-[]()
---->
+双生词
+--->CoinWords
 
 []()
 --->
