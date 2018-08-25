@@ -83,8 +83,8 @@
 双生词
 --->CoinWords
 
-[]()
---->
+解减法方程
+--->ComputeSubtraction
 
 []()
 --->

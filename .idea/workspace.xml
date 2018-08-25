@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ffa95f2-17c1-4c93-b220-99f546dc365f" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/AirQuality.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/CoinWords.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ComputeSubtraction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
@@ -23,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="299">
-                <caret line="83" column="13" lean-forward="false" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+              <first_editor relative-caret-position="345">
+                <caret line="85" column="5" lean-forward="false" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -933,7 +930,7 @@
       <workItem from="1534941667012" duration="10413000" />
       <workItem from="1535030065496" duration="4905000" />
       <workItem from="1535079691857" duration="10166000" />
-      <workItem from="1535161841796" duration="7883000" />
+      <workItem from="1535161841796" duration="7964000" />
     </task>
     <task id="LOCAL-00001" summary="updata">
       <created>1534251196263</created>
@@ -1250,11 +1247,18 @@
       <option name="project" value="LOCAL" />
       <updated>1535123571804</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="updata">
+      <created>1535183837968</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1535183837968</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97066000" />
+    <option name="totallyTimeSpent" value="97147000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -1747,8 +1751,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="299">
-            <caret line="83" column="13" lean-forward="false" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+          <first_editor relative-caret-position="345">
+            <caret line="85" column="5" lean-forward="false" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
             <folding />
           </first_editor>
           <second_editor />
