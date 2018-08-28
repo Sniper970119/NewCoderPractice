@@ -10,32 +10,28 @@ public class RelationBetweenAddAndOr {
         for (int i = 0; i < n; i++) {
             int x = scanner.nextInt();
             int y = scanner.nextInt();
-            int flag = 0;
-            for (int j = 1; j < Integer.MAX_VALUE; j++) {
-                int temp = x | j;
-                if (x + j == temp) {
-                    System.out.println(j);
-                    y--;
-                    flag = j;
-                    if (y<=0){
-                        break;
-                    }
-//                    System.out.println(j);
-                }
-            }
-            System.out.println(flag);
-//            int temp = 1;
-//            while (y != 0) {
-//                int result = x | temp;
-//                System.out.println("result:" + result+" "+temp);
-//                if (x + temp == result) {
-//                    y--;
-//                    System.out.println("is");
-//                }
-//                temp++;
-//            }
-//            System.out.println(temp);
+            findNumber(x, y);
         }
     }
 
+    private static void findNumber(int x, int k) {
+        int y = 0, n = 1;
+        while (k > 0) {
+            if (x % 2 != 0) {
+                //此时x的二进制最右端为1的话，一直使x右移，就是找到x的为0的位置
+                while (x % 2 != 0) {
+                    n = n * 2;  //每移一位，n记录一下变化的值
+                    x = x / 2;
+                }
+            }
+            //如果k的二进制最右端为1，就使y加上n
+            if (k % 2 != 0) {
+                y = y + n;
+            }
+            n = n * 2;
+            x = x / 2;
+            k = k / 2; //同时使x,k右移，以便下一步判断
+        }
+        System.out.println(y);
+    }
 }
