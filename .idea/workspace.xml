@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ffa95f2-17c1-4c93-b220-99f546dc365f" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TennisPressCompute/Beans/HoursInDay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TennisPressCompute/Beans/Order.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TennisPressCompute/Moudle/OrderHandle/CreateAOrder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TennisPressCompute/Moudle/a.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TennisPressCompute/Main.java" afterPath="$PROJECT_DIR$/src/TennisPressCompute/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TennisPressCompute/Moudle/OrderHandle/CreateAOrder.java" afterPath="$PROJECT_DIR$/src/TennisPressCompute/Moudle/OrderHandle/CreateAOrder.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/TennisPressCompute/Moudle/OrderHandle/CreateAOrder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="674">
-              <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -1080,14 +1076,7 @@
       <workItem from="1535079691857" duration="10166000" />
       <workItem from="1535161841796" duration="8075000" />
       <workItem from="1535453510126" duration="8536000" />
-      <workItem from="1536063979426" duration="2025000" />
-    </task>
-    <task id="LOCAL-00003" summary="updata">
-      <created>1534344104487</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1534344104487</updated>
+      <workItem from="1536063979426" duration="2055000" />
     </task>
     <task id="LOCAL-00004" summary="updata">
       <created>1534344120200</created>
@@ -1425,11 +1414,18 @@
       <option name="project" value="LOCAL" />
       <updated>1536064689005</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="updata">
+      <created>1536067104605</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1536067104605</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107819000" />
+    <option name="totallyTimeSpent" value="107849000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -1868,7 +1864,7 @@
     <entry file="file://$PROJECT_DIR$/src/TennisPressCompute/Moudle/OrderHandle/CreateAOrder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="674">
-          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
           <folding />
         </state>
       </provider>
