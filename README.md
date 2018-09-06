@@ -107,11 +107,11 @@
 [计算糖果](https://www.nowcoder.com/questionTerminal/02d8d42b197646a5bbd0a98785bb3a34)
 ---> ComputeCandy
 
-[]()
---->
+[末尾0的个数](https://www.nowcoder.com/questionTerminal/6ffdd7e4197c403e88c6a8aa3e7a332a)
+---> ZeroAtTheEnd
 
-[]()
---->
+[字符串中找出最长的数字长度](https://www.nowcoder.com/questionTerminal/bd891093881d4ddf9e56e7cc8416562d)
+---> FindNumberInString
 
 []()
 --->
