@@ -14,6 +14,7 @@ public class NumberGame {
         }
         Arrays.sort(data);
         int max = 0;
+        // 如果当前数值比最大可达数字+1还大，则会产生不可达数，反之最大可达数为当前可达数加上当前数
         for (int i = 0; i < n; i++) {
             if (data[i] > max + 1) {
                 break;
