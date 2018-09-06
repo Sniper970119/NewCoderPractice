@@ -101,8 +101,8 @@
 [羽毛球馆](https://www.nowcoder.com/test/question/4c3d325a70fd4fb4909e2fe1c42fba71?pid=9104428&tid=18204953)
 ---> TennisPressCompute
 
-[]()
---->
+[数字游戏](https://www.nowcoder.com/questionTerminal/876e3c5fcfa5469f8376370d5de87c06)
+--->NumberGame
 
 []()
 --->

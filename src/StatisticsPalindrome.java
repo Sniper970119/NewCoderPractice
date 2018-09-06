@@ -1,4 +1,3 @@
-import org.apache.derby.vti.IFastPath;
 
 import java.util.Scanner;
 
